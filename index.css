@@ -1,0 +1,40 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: black;
+}
+
+.column{
+    display: flex;
+    margin-bottom: 8px;
+}
+
+label{
+    color: white;
+}
+
+form{
+    border-style: solid;
+    border-width: 1;
+    border-color: white;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+th{
+    color: white;
+    border-style: solid;
+    border-width: 0.5px;
+    border-color: white;
+}
+
+tbody{
+    color: white;
+}
+
+span{
+     color: white;
+}
