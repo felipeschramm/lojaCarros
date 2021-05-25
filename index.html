@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css" type="text/css">
+    <title>Felipe Veiculos</title>
+</head>
+
+<body>
+    <header>
+        <h1>
+            <span data-js="company-name"></span>
+            <span data-js="company-phone"></span>
+        </h1>
+    </header>
+
+    <form action="" data-js="form-register">
+        <div class="column">
+            <label>Imagem do carro:</label>
+            <input data-js="info-car" type="url" placeholder="URL da imagem" />
+        </div>
+
+        <div class="column">
+            <label>Marca / modelo: </label>
+            <input data-js="info-car" type="text" />
+        </div>
+        <div class="column">
+            <label>Ano: </label>
+            <input data-js="info-car" type="text" />
+        </div>
+        <div class="column">
+            <label>Placa: </label>
+            <input data-js="info-car" type="text" />
+        </div>
+        <div class="column">
+            <label>Cor: </label>
+            <input data-js="info-car" type="text" />
+        </div>
+        <div class="column">
+            <button type="button">Cadastrar</button>
+        </div>
+    </form>
+
+    <div class="column">
+        <table>
+            <thead>
+                <tr>
+                    <th>Imagem</th>
+                    <th>Marca/Modelo</th>
+                    <th>Cor</th>
+                    <th>Ano</th>
+                    <th>Placa</th>
+                </tr>
+            </thead>
+
+            <tbody data-js="table"></tbody>
+        </table>
+    </div>
+
+
+    <script src="dom.js"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>
